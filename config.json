@@ -1,0 +1,41 @@
+{
+	"type": "minecraftBedrock",
+	"name": "test",
+	"namespace": "bridge",
+	"authors": [
+		"Bastien"
+	],
+	"targetVersion": "1.18.10",
+	"description": "test",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"theWildUpdate": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "test"
+				}
+			]
+		]
+	}
+}
