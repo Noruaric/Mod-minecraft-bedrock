@@ -1,0 +1,6 @@
+item.bridge:beer.name=beer
+item.bridge:coin=coin
+item.bridge:knife=knife
+item.bridge:light_sword=light sword
+item.bridge:heavy_sword=heavy sword
+tile.bridge:ash.name=ash

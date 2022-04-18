@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Bastien"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.3",
+				"2.2.4",
+				"2.2.5"
+			],
+			"dash": [
+				"0.7.0",
+				"0.7.1",
+				"0.8.3"
+			]
+		}
+	},
+	"header": {
+		"name": "addon Bastien",
+		"description": "",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "186144ed-a6ed-44d4-bfb7-4294a67bfab1",
+		"version": [
+			0,
+			2,
+			0
+		]
+	},
+	"modules": [
+		{
+			"uuid": "e688e02e-54f8-4b4a-8a0b-b6b11f10a71b",
+			"type": "data",
+			"version": [
+				0,
+				2,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "856d5ebf-7638-4583-a27f-ce4e6fdc05e3",
+			"version": [
+				1,
+				2,
+				0
+			]
+		}
+	]
+}

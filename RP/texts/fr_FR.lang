@@ -1,0 +1,6 @@
+item.bridge:beer.name=bière
+item.bridge:coin=piéce
+item.bridge:knife=couteau
+item.bridge:light_sword=épée légerte
+item.bridge:heavy_sword=épée lourde
+tile.bridge:ash.name=cendre

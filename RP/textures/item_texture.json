@@ -1,0 +1,19 @@
+{
+	"texture_data": {
+		"bridge_beer": {
+			"textures": "textures/items/beer"
+		},
+		"bridge_coin": {
+			"textures": "textures/items/coin"
+		},
+		"bridge_knife": {
+			"textures": "textures/items/knife"
+		},
+		"bridge_light_sword": {
+			"textures": "textures/items/light_sword"
+		},
+		"bridge_heavy_sword": {
+			"textures": "textures/items/heavy_sword"
+		}
+	}
+}

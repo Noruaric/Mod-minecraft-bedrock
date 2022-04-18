@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bridge:ash",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bridge_ash",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:breathability": "solid",
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#949696",
+			"minecraft:block_light_absorption": 3,
+			"minecraft:block_light_emission": 0,
+			"minecraft:creative_category": {
+				"category": "nature"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 50
+			},
+			"minecraft:entity_collision": true,
+			"minecraft:pick_collision": true
+		}
+	}
+}

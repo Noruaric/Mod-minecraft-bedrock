@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Bastien"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.3",
+				"2.2.4",
+				"2.2.5"
+			],
+			"dash": [
+				"0.7.0",
+				"0.7.1",
+				"0.8.3"
+			]
+		}
+	},
+	"header": {
+		"name": "test",
+		"description": "test",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "856d5ebf-7638-4583-a27f-ce4e6fdc05e3",
+		"version": [
+			1,
+			2,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5e1b24e7-6965-4539-b216-4189b7a25fdf",
+			"version": [
+				1,
+				2,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "186144ed-a6ed-44d4-bfb7-4294a67bfab1",
+			"version": [
+				0,
+				2,
+				0
+			]
+		}
+	]
+}
